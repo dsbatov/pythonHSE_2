@@ -2,7 +2,7 @@
 Домашние задания за 1 курс лежат [здесь](https://github.com/dsbatov/PythonHSE)  
 <table>
   <tr><th>№</th><th>Описание</th><th>Ссылка на работу</th></tr>
-  <tr><th>1</th><td>Виселица<td><td></td>
+  <tr><th>1</th><td>Виселица</td><td></td>
   <tr><th>2</th><td></td><td></td>   
   <tr><th>3</th><td></td><td></td>
 </table>
