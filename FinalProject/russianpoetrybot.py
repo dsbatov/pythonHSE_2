@@ -3,7 +3,7 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from lingcorpora import Corpus
 import pronouncing
-from rupo.api import Engine
+# from rupo.api import Engine
 from sys import getdefaultencoding
 from lingcorpora import Corpus
 
