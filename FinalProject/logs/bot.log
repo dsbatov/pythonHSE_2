@@ -1,0 +1,2709 @@
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+TypeError: get_text_to_rhyme() takes 1 positional argument but 2 were given
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 46, in talk_to_me
+    [Result(query=мешок, N=10, params={'numResults': 10, 'kwic': True, 'nLeft': None, 'nRight': None, 'queryLanguage': None, 'subcorpus': 'main', 'tag': False, 'start': 0, 'writingSystem': None})]
+NameError: name 'Result' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 46, in talk_to_me
+    [Result(query=мешок, N=10, params={'numResults': 10, 'kwic': True, 'nLeft': None, 'nRight': None, 'queryLanguage': None, 'subcorpus': 'main', 'tag': False, 'start': 0, 'writingSystem': None})]
+NameError: name 'Result' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 57, in talk_to_me
+    update.message.reply_text(target.text)
+NameError: name 'target' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 58, in talk_to_me
+    update.message.reply_text(target.text)
+NameError: name 'target' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 46, in talk_to_me
+    print(rhyme.text)
+AttributeError: 'str' object has no attribute 'text'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 45, in talk_to_me
+    engine.load(RU_STRESS_DEFAULT_MODEL, ZALYZNYAK_DICT)
+NameError: name 'RU_STRESS_DEFAULT_MODEL' is not defined
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 45, in talk_to_me
+    engine.load(RU_STRESS_DEFAULT_MODEL, ZALYZNYAK_DICT)
+NameError: name 'RU_STRESS_DEFAULT_MODEL' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 45, in talk_to_me
+    print(engine.text)
+AttributeError: 'Engine' object has no attribute 'text'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 46, in talk_to_me
+    engine.load(RU_STRESS_DEFAULT_MODEL, ZALYZNYAK_DICT)
+NameError: name 'RU_STRESS_DEFAULT_MODEL' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 45, in talk_to_me
+    isRhyme=engine.is_rhyme("корова", "здорова")
+  File "C:\Users\Dmitry\Desktop\rupo\api.py", line 169, in is_rhyme
+    markup_word1 = self.get_markup(word1).lines[0].words[0]
+  File "C:\Users\Dmitry\Desktop\rupo\api.py", line 128, in get_markup
+    return Markup.process_text(text, self.get_stress_predictor(language))
+  File "C:\Users\Dmitry\Desktop\rupo\api.py", line 83, in get_stress_predictor
+    zalyzniak_dict, cmu_dict)
+  File "C:\Users\Dmitry\Desktop\rupo\stress\predictor.py", line 150, in __init__
+    self.rnn = RNNGraphemeStressPredictor(language, stress_model_path)
+  File "C:\Users\Dmitry\Desktop\rupo\stress\predictor.py", line 36, in __init__
+    raise RuntimeError("No stress model available (or wrong path)")
+RuntimeError: No stress model available (or wrong path)
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 45, in talk_to_me
+    isRhyme=engine.is_rhyme("корова", "здорова")
+  File "C:\Users\Dmitry\Desktop\rupo\api.py", line 169, in is_rhyme
+    markup_word1 = self.get_markup(word1).lines[0].words[0]
+  File "C:\Users\Dmitry\Desktop\rupo\api.py", line 128, in get_markup
+    return Markup.process_text(text, self.get_stress_predictor(language))
+  File "C:\Users\Dmitry\Desktop\rupo\api.py", line 83, in get_stress_predictor
+    zalyzniak_dict, cmu_dict)
+  File "C:\Users\Dmitry\Desktop\rupo\stress\predictor.py", line 150, in __init__
+    self.rnn = RNNGraphemeStressPredictor(language, stress_model_path)
+  File "C:\Users\Dmitry\Desktop\rupo\stress\predictor.py", line 36, in __init__
+    raise RuntimeError("No stress model available (or wrong path)")
+RuntimeError: No stress model available (or wrong path)
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 46, in talk_to_me
+    isRhyme = engine.is_rhyme("корова", "здорова")
+  File "C:\Users\Dmitry\Desktop\rupo\api.py", line 169, in is_rhyme
+    markup_word1 = self.get_markup(word1).lines[0].words[0]
+  File "C:\Users\Dmitry\Desktop\rupo\api.py", line 128, in get_markup
+    return Markup.process_text(text, self.get_stress_predictor(language))
+  File "C:\Users\Dmitry\Desktop\rupo\api.py", line 83, in get_stress_predictor
+    zalyzniak_dict, cmu_dict)
+  File "C:\Users\Dmitry\Desktop\rupo\stress\predictor.py", line 150, in __init__
+    self.rnn = RNNGraphemeStressPredictor(language, stress_model_path)
+  File "C:\Users\Dmitry\Desktop\rupo\stress\predictor.py", line 36, in __init__
+    raise RuntimeError("No stress model available (or wrong path)")
+RuntimeError: No stress model available (or wrong path)
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 46, in talk_to_me
+    engine.load('C:\\Users\\Dmitry\\Desktop\\rupo\\dict\\stress_vocab.pickle', 'C:\\Users\\Dmitry\\Desktop\\rupo\\dict\\zaliznyak.txt')
+  File "C:\Users\Dmitry\Desktop\rupo\api.py", line 44, in load
+    stress_trie_path, zalyzniak_dict)
+  File "C:\Users\Dmitry\Desktop\rupo\api.py", line 83, in get_stress_predictor
+    zalyzniak_dict, cmu_dict)
+  File "C:\Users\Dmitry\Desktop\rupo\stress\predictor.py", line 150, in __init__
+    self.rnn = RNNGraphemeStressPredictor(language, stress_model_path)
+  File "C:\Users\Dmitry\Desktop\rupo\stress\predictor.py", line 39, in __init__
+    self.stress_model.load(self.stress_model_path)
+  File "C:\Users\Dmitry\Desktop\rupo\stress\grapheme_rnn.py", line 104, in load
+    self.model = load_model(filename)
+  File "C:\Python\lib\site-packages\keras\engine\saving.py", line 417, in load_model
+    f = h5dict(filepath, 'r')
+  File "C:\Python\lib\site-packages\keras\utils\io_utils.py", line 186, in __init__
+    self.data = h5py.File(path, mode=mode)
+  File "C:\Python\lib\site-packages\h5py\_hl\files.py", line 394, in __init__
+    swmr=swmr)
+  File "C:\Python\lib\site-packages\h5py\_hl\files.py", line 170, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5f.pyx", line 85, in h5py.h5f.open
+OSError: Unable to open file (file signature not found)
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 55, in talk_to_me
+    rus_results = rus_corp.search(query=мешок, numResults=10, params={'kwic': False, 'nRight': None, 'subcorpus': 'rus', 'tag': False, 'start': 0, 'writingSystem': None})
+NameError: name 'мешок' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 55, in talk_to_me
+    rus_results = rus_corp.search(query=мешок, numResults=10)
+NameError: name 'мешок' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 55, in talk_to_me
+    rus_results = rus_corp.search(user_text, numResults = 10, params={'kwic': False, 'nRight': None, 'subcorpus': 'rus', 'tag': False, 'start': 0, 'writingSystem': None})
+  File "C:\Python\lib\site-packages\lingcorpora\corpus.py", line 70, in search
+    self.parser = self.__corpus.PageParser(q, *args, **kwargs)
+  File "C:\Python\lib\site-packages\lingcorpora\corpora\rus_corpus.py", line 37, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'params'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000019E28410AC8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot735369145:AAFQ4hmTBLVNy48lLsoouUoXu52Vr4FWBlA/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000019E2B3B0470>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot735369145:AAFQ4hmTBLVNy48lLsoouUoXu52Vr4FWBlA/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000019E2B3B00B8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot735369145:AAFQ4hmTBLVNy48lLsoouUoXu52Vr4FWBlA/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot735369145:AAFQ4hmTBLVNy48lLsoouUoXu52Vr4FWBlA/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000019E2B3B05F8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\socks.py", line 809, in connect
+    negotiate(self, dest_addr, dest_port)
+  File "C:\Python\lib\site-packages\socks.py", line 444, in _negotiate_SOCKS5
+    self, CONNECT, dest_addr)
+  File "C:\Python\lib\site-packages\socks.py", line 520, in _SOCKS5_request
+    resolved = self._write_SOCKS5_address(dst, writer)
+  File "C:\Python\lib\site-packages\socks.py", line 576, in _write_SOCKS5_address
+    socket.AI_ADDRCONFIG)
+  File "C:\Python\lib\socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 88, in _new_conn
+    **extra_kw
+  File "C:\Python\lib\site-packages\socks.py", line 209, in create_connection
+    raise err
+  File "C:\Python\lib\site-packages\socks.py", line 199, in create_connection
+    sock.connect((remote_host, remote_port))
+  File "C:\Python\lib\site-packages\socks.py", line 47, in wrapper
+    return function(*args, **kwargs)
+  File "C:\Python\lib\site-packages\socks.py", line 814, in connect
+    raise GeneralProxyError("Socket error", error)
+socks.GeneralProxyError: Socket error: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\contrib\socks.py", line 110, in _new_conn
+    "Failed to establish a new connection: %s" % error
+telegram.vendor.ptb_urllib3.urllib3.exceptions.NewConnectionError: <telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000019E2B3B05F8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\utils\request.py", line 203, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot735369145:AAFQ4hmTBLVNy48lLsoouUoXu52Vr4FWBlA/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000019E2B3B05F8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\updater.py", line 319, in _network_loop_retry
+    if not action_cb():
+  File "C:\Python\lib\site-packages\telegram\ext\updater.py", line 280, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Python\lib\site-packages\telegram\bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Python\lib\site-packages\telegram\bot.py", line 1975, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Python\lib\site-packages\telegram\utils\request.py", line 309, in post
+    headers={'Content-Type': 'application/json'})
+  File "C:\Python\lib\site-packages\telegram\utils\request.py", line 209, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot735369145:AAFQ4hmTBLVNy48lLsoouUoXu52Vr4FWBlA/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000019E2B3B05F8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 70, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 119, in scrap_rhyme
+    for goodcontentline in goodcontent:
+TypeError: 'NoneType' object is not iterable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 70, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 119, in scrap_rhyme
+    for goodcontentline in goodcontent:
+TypeError: 'NoneType' object is not iterable
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 70, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 119, in scrap_rhyme
+    for goodcontentline in goodcontent:
+TypeError: 'NoneType' object is not iterable
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 70, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 119, in scrap_rhyme
+    for goodcontentline in goodcontent:
+TypeError: 'NoneType' object is not iterable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 70, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 117, in scrap_rhyme
+    for goodcontentline in goodcontent:
+TypeError: 'NoneType' object is not iterable
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 80, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 149, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 80, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 149, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 80, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 149, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 70, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 117, in scrap_rhyme
+    for goodcontentline in goodcontent:
+TypeError: 'NoneType' object is not iterable
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 70, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 117, in scrap_rhyme
+    for goodcontentline in goodcontent:
+TypeError: 'NoneType' object is not iterable
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 80, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 149, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 70, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 117, in scrap_rhyme
+    for goodcontentline in goodcontent:
+TypeError: 'NoneType' object is not iterable
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 70, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 117, in scrap_rhyme
+    for goodcontentline in goodcontent:
+TypeError: 'NoneType' object is not iterable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 84, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 158, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 126, in scrap_rhyme
+    for goodcontentline in goodcontent:
+TypeError: 'NoneType' object is not iterable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 128, in scrap_rhyme
+    for goodcontentline in goodcontent:
+TypeError: 'NoneType' object is not iterable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 81, in talk_to_me
+    rhyme_number = random.randint(1, len(rhyme_set))
+  File "C:\Python\lib\random.py", line 221, in randint
+    return self.randrange(a, b+1)
+  File "C:\Python\lib\random.py", line 199, in randrange
+    raise ValueError("empty range for randrange() (%d,%d, %d)" % (istart, istop, width))
+ValueError: empty range for randrange() (1,1, 0)
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 81, in talk_to_me
+    rhyme_number = random.randint(1, len(rhyme_set))
+  File "C:\Python\lib\random.py", line 221, in randint
+    return self.randrange(a, b+1)
+  File "C:\Python\lib\random.py", line 199, in randrange
+    raise ValueError("empty range for randrange() (%d,%d, %d)" % (istart, istop, width))
+ValueError: empty range for randrange() (1,1, 0)
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 123, in scrap_rhyme
+    print('content1 = ' + content_1)
+TypeError: must be str, not BeautifulSoup
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 132, in scrap_rhyme
+    print('content1 = ' + content_1)
+TypeError: must be str, not BeautifulSoup
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 132, in scrap_rhyme
+    print('content1 = ' + content_1)
+TypeError: must be str, not BeautifulSoup
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 128, in scrap_rhyme
+    response = request.urlopen(geourl)
+  File "C:\Python\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python\lib\urllib\request.py", line 532, in open
+    response = meth(req, response)
+  File "C:\Python\lib\urllib\request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python\lib\urllib\request.py", line 564, in error
+    result = self._call_chain(*args)
+  File "C:\Python\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python\lib\urllib\request.py", line 756, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Python\lib\urllib\request.py", line 532, in open
+    response = meth(req, response)
+  File "C:\Python\lib\urllib\request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python\lib\urllib\request.py", line 570, in error
+    return self._call_chain(*args)
+  File "C:\Python\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python\lib\urllib\request.py", line 650, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: 
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 126, in scrap_rhyme
+    geourl = ("http://rifmik.net/rhyme/{0}?accent="+word_accent).format(quote(word))
+TypeError: must be str, not int
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 126, in scrap_rhyme
+    if word[i] == [аеЄиоуыэю€ј≈®»ќ”џЁёя]:
+NameError: name 'аеЄиоуыэю€ј≈®»ќ”џЁёя' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 127, in scrap_rhyme
+    if word[i] == [аеЄиоуыэю€ј≈®»ќ”џЁёя]:
+NameError: name 'аеЄиоуыэю€ј≈®»ќ”џЁёя' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 128, in scrap_rhyme
+    if word[i] == [аеЄиоуыэю€ј≈®»ќ”џЁёя]:
+NameError: name 'аеЄиоуыэю€ј≈®»ќ”џЁёя' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 128, in scrap_rhyme
+    if word[i] == [аеЄиоуыэю€ј≈®»ќ”џЁёя]:
+NameError: name 'аеЄиоуыэю€ј≈®»ќ”џЁёя' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 132, in scrap_rhyme
+    print(word_accent)
+UnboundLocalError: local variable 'word_accent' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 132, in scrap_rhyme
+    print(word_accent)
+UnboundLocalError: local variable 'word_accent' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 132, in scrap_rhyme
+    print(word_accent)
+UnboundLocalError: local variable 'word_accent' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 128, in scrap_rhyme
+    if word[i] == [о]: #['аеЄиоуыэю€ј≈®»ќ”џЁёя']:
+NameError: name 'о' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 132, in scrap_rhyme
+    print(word_accent)
+UnboundLocalError: local variable 'word_accent' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 133, in scrap_rhyme
+    print(word_accent)
+UnboundLocalError: local variable 'word_accent' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 84, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 129, in scrap_rhyme
+    if word[i] in [аеЄиоуыэю€ј≈®»ќ”џЁёя]:
+NameError: name 'аеЄиоуыэю€ј≈®»ќ”џЁёя' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 84, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 84, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 65, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 134, in scrap_rhyme
+    for goodcontentline in goodcontent:
+TypeError: 'NoneType' object is not iterable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 66, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 119, in scrap_rhyme
+    geourl = ("http://rifmik.net/rhyme/{0}?accent="+str(word_accent)).format(quote(word))
+UnboundLocalError: local variable 'word_accent' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 67, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 120, in scrap_rhyme
+    geourl = ("http://rifmik.net/rhyme/{0}?accent="+str(word_accent)).format(quote(word))
+UnboundLocalError: local variable 'word_accent' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 67, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 123, in scrap_rhyme
+    response = request.urlopen(geourl)
+  File "C:\Python\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python\lib\urllib\request.py", line 532, in open
+    response = meth(req, response)
+  File "C:\Python\lib\urllib\request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python\lib\urllib\request.py", line 564, in error
+    result = self._call_chain(*args)
+  File "C:\Python\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python\lib\urllib\request.py", line 756, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Python\lib\urllib\request.py", line 532, in open
+    response = meth(req, response)
+  File "C:\Python\lib\urllib\request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python\lib\urllib\request.py", line 570, in error
+    return self._call_chain(*args)
+  File "C:\Python\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python\lib\urllib\request.py", line 650, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: 
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 169, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 67, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 123, in scrap_rhyme
+    response = request.urlopen(geourl)
+  File "C:\Python\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python\lib\urllib\request.py", line 532, in open
+    response = meth(req, response)
+  File "C:\Python\lib\urllib\request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python\lib\urllib\request.py", line 564, in error
+    result = self._call_chain(*args)
+  File "C:\Python\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python\lib\urllib\request.py", line 756, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Python\lib\urllib\request.py", line 532, in open
+    response = meth(req, response)
+  File "C:\Python\lib\urllib\request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python\lib\urllib\request.py", line 570, in error
+    return self._call_chain(*args)
+  File "C:\Python\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python\lib\urllib\request.py", line 650, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: 
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 171, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 172, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 172, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 67, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 123, in scrap_rhyme
+    response = request.urlopen(geourl)
+  File "C:\Python\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python\lib\urllib\request.py", line 532, in open
+    response = meth(req, response)
+  File "C:\Python\lib\urllib\request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python\lib\urllib\request.py", line 564, in error
+    result = self._call_chain(*args)
+  File "C:\Python\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python\lib\urllib\request.py", line 756, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Python\lib\urllib\request.py", line 532, in open
+    response = meth(req, response)
+  File "C:\Python\lib\urllib\request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python\lib\urllib\request.py", line 570, in error
+    return self._call_chain(*args)
+  File "C:\Python\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python\lib\urllib\request.py", line 650, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: 
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 67, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 123, in scrap_rhyme
+    response = request.urlopen(geourl)
+  File "C:\Python\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python\lib\urllib\request.py", line 532, in open
+    response = meth(req, response)
+  File "C:\Python\lib\urllib\request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python\lib\urllib\request.py", line 564, in error
+    result = self._call_chain(*args)
+  File "C:\Python\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python\lib\urllib\request.py", line 756, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Python\lib\urllib\request.py", line 532, in open
+    response = meth(req, response)
+  File "C:\Python\lib\urllib\request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python\lib\urllib\request.py", line 570, in error
+    return self._call_chain(*args)
+  File "C:\Python\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python\lib\urllib\request.py", line 650, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: 
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 172, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    #	print(rhyme_set)
+  File "bot.py", line 172, in get_poem
+    break
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 53, in talk_to_me
+    (3,'ј вс€кое и каждое молчание, не зна€ никакого исключени€, имеет сокровенное звучание, исполненное смысла и значени€.')
+TypeError: 'tuple' object is not callable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 53, in talk_to_me
+    (3,'ј вс€кое и каждое молчание, не зна€ никакого исключени€, имеет сокровенное звучание, исполненное смысла и значени€.')
+TypeError: 'tuple' object is not callable
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 53, in talk_to_me
+    (3,'ј вс€кое и каждое молчание, не зна€ никакого исключени€, имеет сокровенное звучание, исполненное смысла и значени€.')
+TypeError: 'tuple' object is not callable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 53, in talk_to_me
+    (3,'ј вс€кое и каждое молчание, не зна€ никакого исключени€, имеет сокровенное звучание, исполненное смысла и значени€.')
+TypeError: 'tuple' object is not callable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 53, in talk_to_me
+    (3,'ј вс€кое и каждое молчание, не зна€ никакого исключени€, имеет сокровенное звучание, исполненное смысла и значени€.')
+TypeError: 'tuple' object is not callable
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 53, in talk_to_me
+    (3,'ј вс€кое и каждое молчание, не зна€ никакого исключени€, имеет сокровенное звучание, исполненное смысла и значени€.')
+TypeError: 'tuple' object is not callable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    if out_text == '': out_text = Otmazki[random.randint(1,len(Otmazki))]
+NameError: name 'Otmazki' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 53, in talk_to_me
+    (3,'ј вс€кое и каждое молчание, не зна€ никакого исключени€, имеет сокровенное звучание, исполненное смысла и значени€.')
+TypeError: 'tuple' object is not callable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 77, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 176, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 77, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 176, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 77, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 176, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 77, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 176, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 77, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 176, in get_poem
+    finally:
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 77, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 176, in get_poem
+    finally:
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 77, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 176, in get_poem
+    finally:
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 77, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 176, in get_poem
+    finally:
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 77, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 177, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 77, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 177, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 77, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 178, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 71, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 142, in scrap_rhyme
+    for goodcontentline in goodcontent:
+TypeError: 'NoneType' object is not iterable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 71, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 142, in scrap_rhyme
+    for goodcontentline in goodcontent:
+TypeError: 'NoneType' object is not iterable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 71, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 136, in scrap_rhyme
+    print('content1 = ' + content_1)
+TypeError: must be str, not BeautifulSoup
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 71, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 137, in scrap_rhyme
+    print('content1 = ' + content_1)
+TypeError: must be str, not BeautifulSoup
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 76, in talk_to_me
+    print(rhyme_set[rhyme_number])
+IndexError: list index out of range
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 77, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 185, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 77, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 185, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 77, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 185, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 71, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 127, in scrap_rhyme
+    response = request.urlopen(geourl)
+  File "C:\Python\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python\lib\urllib\request.py", line 532, in open
+    response = meth(req, response)
+  File "C:\Python\lib\urllib\request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python\lib\urllib\request.py", line 564, in error
+    result = self._call_chain(*args)
+  File "C:\Python\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python\lib\urllib\request.py", line 756, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Python\lib\urllib\request.py", line 532, in open
+    response = meth(req, response)
+  File "C:\Python\lib\urllib\request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python\lib\urllib\request.py", line 570, in error
+    return self._call_chain(*args)
+  File "C:\Python\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python\lib\urllib\request.py", line 650, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: 
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 71, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 149, in scrap_rhyme
+    for goodcontentline in goodcontent:
+TypeError: 'NoneType' object is not iterable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 187, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 169, in get_poem
+    target.text = ''
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 163, in get_poem
+    target.text = ''
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 164, in get_poem
+    target.text = ''
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 181, in get_poem
+    print('target_text = "' + target.text + '"')
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 182, in get_poem
+    print('target_text = "' + target.text + '"')
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "bot.py", line 180, in get_poem
+    target.text = ''
+UnboundLocalError: local variable 'target' referenced before assignment
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    print('target_text = "' + target.text + '"')
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "bot.py", line 180, in get_poem
+    target.text = ''
+UnboundLocalError: local variable 'target' referenced before assignment
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 184, in get_poem
+    print('target_text = "' + target.text + '"')
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 180, in get_poem
+    target.text = ''
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 171, in get_poem
+    if result :
+UnboundLocalError: local variable 'result' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 171, in get_poem
+    print(result)
+UnboundLocalError: local variable 'result' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 171, in get_poem
+    print(rus_result)
+NameError: name 'rus_result' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 172, in get_poem
+    if rus_result :
+NameError: name 'rus_result' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 182, in get_poem
+    target.text = ''
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 172, in get_poem
+    if rus_results.n != 0  :
+AttributeError: 'list' object has no attribute 'n'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 181, in get_poem
+    target.text = ''
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 174, in get_poem
+    if result.n != 0 :
+AttributeError: 'Result' object has no attribute 'n'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 172, in get_poem
+    for result in range [rus_results]:
+TypeError: 'type' object is not subscriptable
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 172, in get_poem
+    for result in range [rus_results]:
+TypeError: 'type' object is not subscriptable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 77, in talk_to_me
+    print(rhyme_set[rhyme_number])
+IndexError: list index out of range
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 182, in get_poem
+    print('target_text = "' + target.text + '"')
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    print('target_text = "' + target.text + '"')
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 174, in get_poem
+    print(enumerate(result).i)
+AttributeError: 'enumerate' object has no attribute 'i'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    print('target_text = "' + target.text + '"')
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 173, in get_poem
+    print(str(result.n))
+AttributeError: 'Result' object has no attribute 'n'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 173, in get_poem
+    print(str(result.n))
+AttributeError: 'Result' object has no attribute 'n'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 173, in get_poem
+    print(str(result.n))
+AttributeError: 'Result' object has no attribute 'n'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 173, in get_poem
+    print(str(result.n))
+AttributeError: 'Result' object has no attribute 'n'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 173, in get_poem
+    print(str(result.n))
+AttributeError: 'Result' object has no attribute 'n'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 182, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 71, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 114, in scrap_rhyme
+    response = request.urlopen(geourl)
+  File "C:\Python\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python\lib\urllib\request.py", line 532, in open
+    response = meth(req, response)
+  File "C:\Python\lib\urllib\request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python\lib\urllib\request.py", line 564, in error
+    result = self._call_chain(*args)
+  File "C:\Python\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python\lib\urllib\request.py", line 756, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Python\lib\urllib\request.py", line 532, in open
+    response = meth(req, response)
+  File "C:\Python\lib\urllib\request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python\lib\urllib\request.py", line 570, in error
+    return self._call_chain(*args)
+  File "C:\Python\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python\lib\urllib\request.py", line 650, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: 
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - WARNING - A TelegramError was raised while processing the Update
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Python\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Python\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Python\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Python\lib\ssl.py", line 1009, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Python\lib\ssl.py", line 871, in read
+    return self._sslobj.read(len, buffer)
+  File "C:\Python\lib\ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+ConnectionResetError: [WinError 10054] ”даленный хост принудительно разорвал существующее подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\utils\request.py", line 203, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Python\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Python\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Python\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Python\lib\ssl.py", line 1009, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Python\lib\ssl.py", line 871, in read
+    return self._sslobj.read(len, buffer)
+  File "C:\Python\lib\ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '”даленный хост принудительно разорвал существующее подключение', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 85, in talk_to_me
+    update.message.reply_text(out_text)
+  File "C:\Python\lib\site-packages\telegram\message.py", line 455, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "C:\Python\lib\site-packages\telegram\bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Python\lib\site-packages\telegram\bot.py", line 90, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "C:\Python\lib\site-packages\telegram\utils\request.py", line 309, in post
+    headers={'Content-Type': 'application/json'})
+  File "C:\Python\lib\site-packages\telegram\utils\request.py", line 209, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, '”даленный хост принудительно разорвал существующее подключение', None, 10054, None))
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - WARNING - A TelegramError was raised while processing the Update
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Python\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Python\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Python\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Python\lib\ssl.py", line 1009, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Python\lib\ssl.py", line 871, in read
+    return self._sslobj.read(len, buffer)
+  File "C:\Python\lib\ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+ConnectionResetError: [WinError 10054] ”даленный хост принудительно разорвал существующее подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\utils\request.py", line 203, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Python\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Python\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Python\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Python\lib\ssl.py", line 1009, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Python\lib\ssl.py", line 871, in read
+    return self._sslobj.read(len, buffer)
+  File "C:\Python\lib\ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '”даленный хост принудительно разорвал существующее подключение', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 85, in talk_to_me
+    update.message.reply_text(out_text)
+  File "C:\Python\lib\site-packages\telegram\message.py", line 455, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "C:\Python\lib\site-packages\telegram\bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Python\lib\site-packages\telegram\bot.py", line 90, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "C:\Python\lib\site-packages\telegram\utils\request.py", line 309, in post
+    headers={'Content-Type': 'application/json'})
+  File "C:\Python\lib\site-packages\telegram\utils\request.py", line 209, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, '”даленный хост принудительно разорвал существующее подключение', None, 10054, None))
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - WARNING - A TelegramError was raised while processing the Update
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Python\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Python\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Python\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Python\lib\ssl.py", line 1009, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Python\lib\ssl.py", line 871, in read
+    return self._sslobj.read(len, buffer)
+  File "C:\Python\lib\ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\utils\request.py", line 203, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 405, in _make_request
+    exc_cls=ReadTimeoutError)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 321, in _raise_timeout
+    raise exc_cls(*args)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ReadTimeoutError: SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5.0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 85, in talk_to_me
+    update.message.reply_text(out_text)
+  File "C:\Python\lib\site-packages\telegram\message.py", line 455, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "C:\Python\lib\site-packages\telegram\bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Python\lib\site-packages\telegram\bot.py", line 90, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "C:\Python\lib\site-packages\telegram\utils\request.py", line 309, in post
+    headers={'Content-Type': 'application/json'})
+  File "C:\Python\lib\site-packages\telegram\utils\request.py", line 205, in _request_wrapper
+    raise TimedOut()
+telegram.error.TimedOut: Timed out
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - WARNING - A TelegramError was raised while processing the Update
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Python\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Python\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Python\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Python\lib\ssl.py", line 1009, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Python\lib\ssl.py", line 871, in read
+    return self._sslobj.read(len, buffer)
+  File "C:\Python\lib\ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\utils\request.py", line 203, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\packages\six.py", line 686, in reraise
+    raise value
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 405, in _make_request
+    exc_cls=ReadTimeoutError)
+  File "C:\Python\lib\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 321, in _raise_timeout
+    raise exc_cls(*args)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ReadTimeoutError: SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5.0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 85, in talk_to_me
+    update.message.reply_text(out_text)
+  File "C:\Python\lib\site-packages\telegram\message.py", line 455, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "C:\Python\lib\site-packages\telegram\bot.py", line 65, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Python\lib\site-packages\telegram\bot.py", line 90, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "C:\Python\lib\site-packages\telegram\utils\request.py", line 309, in post
+    headers={'Content-Type': 'application/json'})
+  File "C:\Python\lib\site-packages\telegram\utils\request.py", line 205, in _request_wrapper
+    raise TimedOut()
+telegram.error.TimedOut: Timed out
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 183, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    process = subprocess.Popen(program)
+NameError: name 'subprocess' is not defined
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    process = subprocess.Popen(program)
+NameError: name 'subprocess' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 71, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 153, in scrap_rhyme
+    for goodcontentline in goodcontent:
+TypeError: 'NoneType' object is not iterable
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    process = subprocess.Popen(program)
+NameError: name 'subprocess' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    process = subprocess.Popen(program)
+NameError: name 'subprocess' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 184, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 185, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 174, in get_poem
+    print(result.n)
+AttributeError: 'Result' object has no attribute 'n'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 174, in get_poem
+    print(result.is_success)
+AttributeError: 'Result' object has no attribute 'is_success'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 174, in get_poem
+    if result.is_success : print('success')
+AttributeError: 'Result' object has no attribute 'is_success'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 174, in get_poem
+    if result.is_success : print('success')
+AttributeError: 'Result' object has no attribute 'is_success'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 78, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 175, in get_poem
+    if result.is_success : print('success')
+AttributeError: 'Result' object has no attribute 'is_success'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 80, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 177, in get_poem
+    if result.is_success : print('success')
+AttributeError: 'Result' object has no attribute 'is_success'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 80, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 177, in get_poem
+    if result.is_success : print('success')
+AttributeError: 'Result' object has no attribute 'is_success'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 80, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 187, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 80, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 188, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 80, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 178, in get_poem
+    print('длина result'+str(len(result)))
+TypeError: object of type 'Result' has no len()
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 79, in talk_to_me
+    print(rhyme_set[rhyme_number])
+IndexError: list index out of range
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 80, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 188, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 80, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 186, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 80, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 191, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 153, in scrap_rhyme
+    for goodcontentline in goodcontent:
+TypeError: 'NoneType' object is not iterable
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 80, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 175, in get_poem
+    if rus_results.N == 0: print('не нашли ничего')
+AttributeError: 'list' object has no attribute 'N'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 80, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 175, in get_poem
+    print(str(rus_results.N))
+AttributeError: 'list' object has no attribute 'N'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 80, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 186, in get_poem
+    return target.text
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 80, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 177, in get_poem
+    target.text = ''
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 80, in talk_to_me
+    out_text = get_poem(rhyme_set[rhyme_number])
+  File "bot.py", line 177, in get_poem
+    setattr(target, 'text', '')
+UnboundLocalError: local variable 'target' referenced before assignment
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 73, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 132, in scrap_rhyme
+    response = request.urlopen(geourl)
+  File "C:\Python\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python\lib\urllib\request.py", line 532, in open
+    response = meth(req, response)
+  File "C:\Python\lib\urllib\request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python\lib\urllib\request.py", line 564, in error
+    result = self._call_chain(*args)
+  File "C:\Python\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python\lib\urllib\request.py", line 756, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Python\lib\urllib\request.py", line 532, in open
+    response = meth(req, response)
+  File "C:\Python\lib\urllib\request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python\lib\urllib\request.py", line 570, in error
+    return self._call_chain(*args)
+  File "C:\Python\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python\lib\urllib\request.py", line 650, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: 
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 74, in talk_to_me
+    rhyme_set = scrap_rhyme(user_text)
+  File "bot.py", line 136, in scrap_rhyme
+    response = request.urlopen(geourl)
+  File "C:\Python\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python\lib\urllib\request.py", line 532, in open
+    response = meth(req, response)
+  File "C:\Python\lib\urllib\request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python\lib\urllib\request.py", line 564, in error
+    result = self._call_chain(*args)
+  File "C:\Python\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python\lib\urllib\request.py", line 756, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Python\lib\urllib\request.py", line 532, in open
+    response = meth(req, response)
+  File "C:\Python\lib\urllib\request.py", line 642, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Python\lib\urllib\request.py", line 570, in error
+    return self._call_chain(*args)
+  File "C:\Python\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python\lib\urllib\request.py", line 650, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: 
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 81, in talk_to_me
+    print(rhyme_set[rhyme_number])
+IndexError: list index out of range
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python\lib\site-packages\telegram\ext\messagehandler.py", line 169, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 81, in talk_to_me
+IndexError: list index out of range
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
