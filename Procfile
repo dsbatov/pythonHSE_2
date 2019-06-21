@@ -1,1 +1,1 @@
-web: python russianpoetrybot.py
+worker: python russianpoetrybot.py
